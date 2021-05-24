@@ -40,7 +40,7 @@ jobs:
       env:
         TNAME: HC5861B
       run: |
-        cd /opt/rt-n56u/trunk
+        cd /rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
         echo "configs/templates/$TNAME.config not found "
         exit 1
