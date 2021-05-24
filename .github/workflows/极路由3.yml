@@ -26,7 +26,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7628"
             targets: "HC5861B"
     steps:
       - uses: actions/checkout@v2
